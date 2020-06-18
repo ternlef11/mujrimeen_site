@@ -2,7 +2,6 @@ import React from 'react';
 import './mujstyle.css';
 import {
   Route,
-  NavLink,
   Switch,
   Link
 } from "react-router-dom";

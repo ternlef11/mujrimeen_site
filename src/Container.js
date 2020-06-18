@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styled from "styled-components";
 import {
   Route,
   Switch
@@ -34,8 +33,5 @@ class App extends Component {
   );
 }
 }
-
-const Wrapper = styled.div`
-`;
 
 export default App;

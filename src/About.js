@@ -3,7 +3,6 @@ import Gittoggle from './gitlink.js';
 import Instatoggle from './instalink.js';
 import Cttoggle from './websitelink.js';
 import LNtoggle from './linkedinlink.js';
-import Sketch from "react-p5";
 import './mujstyle.css';
 import {
   CSSTransition,
@@ -12,7 +11,6 @@ import {
 import Videowhi from './eggwhite_sma.gif';
 import {
   Route,
-  NavLink,
   Switch,
   Link
 } from "react-router-dom";
@@ -30,7 +28,7 @@ function About() {
         <div className='eggcont'>
 
                 <div className='navicircle'>
-                    <img alt='the_egg_gif' className="theegggiff" src={Videowhi}></img>
+                    <img alt="egg_gif" className="theegggiff" src={Videowhi}></img>
                 <Link to="/">
                     <div className='overcircle'>
                     </div>

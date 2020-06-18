@@ -1,10 +1,8 @@
 import React from 'react';
-import About from './About';
 import Video from './eggblack_sma.gif';
 import './mujstyle.css';
 import {
   Route,
-  NavLink,
   Switch,
   Link
 } from "react-router-dom";
