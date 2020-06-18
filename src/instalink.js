@@ -17,7 +17,8 @@ export default class Instatoggle extends Component {
     render() {
         const imageName = this.getImageName();
             return (
-            <a rel="noopener noreferrer" className={imagesPath[imageName]} href="https://www.instagram.com/slimenbile/" target="_blank" onClick={this.toggleImage} />
+            <a rel="noopener noreferrer" className={imagesPath[imageName]} href="https://www.instagram.com/slimenbile/" target="_blank" onClick={this.toggleImage}><i className="anchoertext" aria-hidden="true"/> </a>
+
                 );
     }
 }

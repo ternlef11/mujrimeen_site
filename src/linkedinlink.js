@@ -17,7 +17,8 @@ export default class LNtoggle extends Component {
     render() {
         const imageName = this.getImageName();
             return (
-            <a className={imagesPath[imageName]} rel="noopener noreferrer" href="https://www.linkedin.com/in/ali-razzak-datasci/" target="_blank" onClick={this.toggleImage} />
+            <a className={imagesPath[imageName]} rel="noopener noreferrer" href="https://www.linkedin.com/in/ali-razzak-datasci/" target="_blank" onClick={this.toggleImage}><i className="anchoertext" aria-hidden="true"/> </a>
+
                 );
     }
 }

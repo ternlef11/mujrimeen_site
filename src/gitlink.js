@@ -17,7 +17,7 @@ export default class Gittoggle extends Component {
     render() {
         const imageName = this.getImageName();
             return (
-            <a className={imagesPath[imageName]} rel="noopener noreferrer" href="https://github.com/ternlef11" target="_blank" onClick={this.toggleImage} />
+            <a className={imagesPath[imageName]} rel="noopener noreferrer" href="https://github.com/ternlef11" target="_blank" onClick={this.toggleImage}><i className="anchoertext" aria-hidden="true"/> </a>
                 );
     }
 }
