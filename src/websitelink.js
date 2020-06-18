@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 const imagesPath = {
   free: "ctlink",
@@ -18,7 +17,7 @@ export default class Cttoggle extends Component {
     render() {
         const imageName = this.getImageName();
             return (
-            <a className={imagesPath[imageName]} href="http://cutthwice.com/" target="_blank" onClick={this.toggleImage} />
+            <a rel="noopener noreferrer" className={imagesPath[imageName]} href="http://cutthwice.com/" target="_blank" onClick={this.toggleImage} />
                 );
     }
 }

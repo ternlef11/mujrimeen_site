@@ -30,7 +30,7 @@ function About() {
         <div className='eggcont'>
 
                 <div className='navicircle'>
-                    <img className="theegggiff" src={Videowhi}></img>
+                    <img alt='the_egg_gif' className="theegggiff" src={Videowhi}></img>
                 <Link to="/">
                     <div className='overcircle'>
                     </div>
